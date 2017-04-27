@@ -71,6 +71,26 @@ a.about, a.portfolio, a.contact{
     text-align: center;
 }
 
+a.about:hover, a.portfolio:hover, a.contact:hover{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: #464646;
+    float: left;
+    display: inline-block;
+    padding: 32px 20px;
+    text-align: center;
+}
+
+a.about:visted , a.portfolio:visted, a.contact:visted{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: #ffa462;
+    float: left;
+    display: inline-block;
+    padding: 32px 20px;
+    text-align: center;
+}
+
 /*==== Main Content ====*/
 .content-container{
     min-height: calc(100vh - 190px);
