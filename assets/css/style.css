@@ -126,7 +126,7 @@ section.portfolio-content {
 }
 
 .portfolio-page  .content-container{
-    min-height: calc(115vh - 190px) !important;
+    min-height: 855px !important;
 }
 
 .portfolio-links{
